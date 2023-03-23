@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/id_fish"
+            android:title="@string/fish"
+            android:icon="@drawable/ic_place">
+        </item>
+        <item
+            android:id="@+id/id_na"
+            android:title="@string/na"
+            android:icon="@drawable/ic_food">
+        </item>
+        <item
+            android:id="@+id/id_sna"
+            android:title="@string/sna"
+            android:icon="@drawable/ic_contakt">
+        </item>
+
+    </group>
+    <item android:title="Еще...">
+
+        <menu>
+            <item
+                android:id="@+id/id_history"
+                android:title="@string/history"
+                android:icon="@drawable/ic_history">
+            </item>
+        </menu>
+
+    </item>
+
+</menu>
